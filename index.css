@@ -94,7 +94,7 @@
     text-align: center;
   }
   
-  /* Results Container */
+  
   .results-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -102,9 +102,9 @@
     margin-top: 30px;
   }
   
-  /* Country Card Styles */
+  
   .innerStyle {
-    background: rgba(255, 255, 255, 0.25); /* lighter glass background */
+    background: rgba(255, 255, 255, 0.25); 
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     padding: 20px;
@@ -113,7 +113,7 @@
     text-align: center;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     border: 1px solid rgba(255, 255, 255, 0.3);
-    color: #ffffff; /* White text for clarity */
+    color: #ffffff; 
   }
   
   
@@ -131,7 +131,7 @@
   
   .innerStyle h3,
 .innerStyle p {
-  color: #cecae2; /* Bright text for readability */
+  color: #cecae2;
   }
  
   .innerStyle h3,
@@ -145,7 +145,7 @@
     color: #b4e0e8;
   }
   
-  /* Footer Styles */
+ 
   footer {
     background-color: rgba(0, 0, 0, 0.419);
     padding: 20px 40px;
@@ -155,5 +155,5 @@
     width: 100%;
     box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.3);
     position: relative;
-    margin-top: auto; /* This will push footer to the bottom */
+   
   }
