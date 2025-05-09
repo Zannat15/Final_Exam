@@ -1,0 +1,31 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background: url('./bg1.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  
+  /* Header Styles */
+  header {
+    background-color: rgba(0, 0, 0, 0.419);
+    padding: 20px 40px;
+    text-align: center;
+    flex-shrink: 0; /* Prevent header from shrinking */
+  }
+  
+  .header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
